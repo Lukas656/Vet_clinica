@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clif</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script src="login.js" defer></script>
+    
+  </head>
+  <body>
+  <div class="corpo"><!--https://www.amigonaosecompra.com.br/-->
+    <section class="conteiner">
+      <div class="grad1">
+        <img src="images/logo.svg" class="logo" />
+        <img src="images/menu.svg" id="menu" />
+      </div>
+      <img src="images/search.svg" class="busca" alt="Buscar..." />
+      <div id="divBusca">
+        <input type="text" id="txtBusca" placeholder="Buscar..." />
+      </div>
+      <div class="grad2">
+        <img src="images/grid.svg" class="grid" />
+        <h2 class="txtNav" id="grid">Dashboad</h2>
+      </div>
+      <div class="grad2">
+        <img src="images/pet.svg" class="pet" />
+        <h2 class="txtNav" id="pets">Pets</h2>
+      </div>
+      <div class="grad2">
+        <img src="images/user.svg" class="user" />
+        <h2 class="txtNav" id="user">Users</h2>
+      </div>
+      <div class="grad2">
+        <img src="images/vet.svg" class="vet" />
+        <h2 class="txtNav" id="vets">Vets</h2>
+      </div>
+      <div class="grad2">
+        <img src="images/settings.svg" class="settings" />
+        <h2 class="txtNav" id="settings">Sobre/confg.</h2>
+      </div>
+      <div class="imgVet">
+        <img
+          src="images/médico-veterinário-veterinária-atual.jpg"
+          width="85em"
+        />
+        <div class="txtVet">
+          <h3>Lucas Santos</h3>
+          <p>Veterinário</p>
+        </div>
+        <img src="images/log-out.svg" />
+      </div>
+      <img src="images/log-out.svg" id="logout" />
+    </section>
+<section class="conteiner2">
+    
+      <article class="cards">
+        <div class="card">
+          <h1>Quem Somos</h1>
+        </div>
+        <div class="card2">
+          <h1>Quero Adotar</h1>
+        </div>
+        <div class="card3">
+          <h1>Locais de Castração</h1>
+        </div>
+        <div class="card4">
+          <h1>Quero Doar</h1>
+        </div>
+        
+        <div class="modal">
+          <button class="btn-modal">Fechar</button>
+          <h3>Quem Somos:</h3>
+        <div class="text-modal">
+          <p>Clínica Veterinária Clif-Vet.</p>
+          <p>Instituição especializada em Adoção e Doação de Pets.</p>
+          <p>Numero para contato: (11) 93461-7894.</p>
+          <ul>
+            <li>Projetado Por : Lucas Santos.</li>
+            <li>Desafio Rocketseat.</li>
+            <li>Tecnologias: HTML 5 | CSS 3 | JavaScript.</li>
+          </ul>
+        </div>
+          <div class="modal-img">
+            <img src="images/03000014-1.jpg">
+                <h4>Em Homenagem a Cliffort</h4>
+          </div>
+        
+          </div>
+        
+      </article>
+<div class="mapa">
+  <h3> Procurar por locais Próximo a Você em:<a href="https://www.google.com.br/maps/search/zoonose+de+s%C3%A3o+/@-23.6446079,-46.9124652,86168m/data=!3m2!1e3!4b1">Google Maps.com</a></h3>
+  <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d993.5220005054075!2d-46.11451767752449!3d-23.510182738367632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cddb7b2b7364db%3A0x78bd4db12b06b1e9!2sCentro%20de%20Controle%20de%20Zoonoses!5e1!3m2!1spt-BR!2sbr!4v1659466584253!5m2!1spt-BR!2sbr"
+  width="99%" height="250" style="border:2;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ 
+</div>
+       <article class="sessionPets">
+        
+        <div class="buttons">
+          <button id="btn1">Quero Adotar</button>
+          <button id="btn2">Quero Doar</button>  
+        </div class='form'>
+        <fieldset class="btn1">
+          <h1>Preencha Este breve Formulário</h1>
+          <p>"Adoção melhor jesto de Amor"</p>
+          <br>
+          <label for="textInput">Nome:</label>
+          <input type="text" name="textInput" id=""><br>
+          <label for="txtEmail">Email:</label>
+          <input type="email" name="txtEmail" id=""><br>
+          <label for="txtContato">Contato:</label>
+          <input type="tel" name="txtContato" id=""><br><br>
+          <input type="button" value="Enviar">
+
+          <p>Ao Enviar suas Informações nossa Equipe entrará em contato com em Breve!</p>
+        </fieldset> 
+        <fieldset class="btn2">
+          <h1>Preencha Este breve Formulário</h1>
+          <p>"Doe um amigo para quem pecisa"</p>
+          <br>
+          <label for="textInput">Nome:</label>
+          <input type="text" name="textInput" id=""><br>
+          <label for="txtEmail">Email:</label>
+          <input type="email" name="txtEmail" id=""><br>
+          <label for="txtContato">Contato:</label>
+          <input type="tel" name="txtContato" id=""><br><br>
+
+          <h3>Dados do Pet</h3><br>
+          <label for="textInput">Nome: </label>
+          <input type="text" name="textInput" id=""><br>
+          <label for="textInput">Espécie:</label>
+          <input type="text" name="textInput" id=""><br>
+          <label for="textInput">Porte: </label>
+          <input type="text" name="textInput" id=""><br>
+          <label for="idadePet">idade: </label>
+          <input type="number" name="idadePet" id=""><br><br>
+          <input type="button" value="Enviar">
+
+          <p>Ao Enviar as Informações nossa Equipe entrará em contato com em Breve!</p>
+        </fieldset>        
+        
+      </article>
+
+      <article class="usuario">
+        <div class="cardUser">
+          <img src="images/logo.svg" class="logo" /><h4 class="title">Faça seu Cadastro!</h4>
+          <form>
+            <div class="field">
+              <svg class="input-icon" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+              <path d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"></path></svg>
+              <input autocomplete="off" id="logemail" placeholder="Email" class="input-field" name="logemail" type="email">
+            </div>
+            <div class="field">
+              <svg class="input-icon" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+              <path d="M80 192V144C80 64.47 144.5 0 224 0C303.5 0 368 64.47 368 144V192H384C419.3 192 448 220.7 448 256V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V256C0 220.7 28.65 192 64 192H80zM144 192H304V144C304 99.82 268.2 64 224 64C179.8 64 144 99.82 144 144V192z"></path></svg>
+              <input autocomplete="off" id="logpass" placeholder="Password" class="input-field" name="logpass" type="password">
+            </div>
+            <button class="btn" type="submit">Login</button>
+            <a href="#" class="btn-link">Forgot your password?</a>
+          </form>
+        </div>
+      </article>
+
+      <article class="sectionVet">
+      <div class="veterinarios">
+       
+        <dir class="person">
+          <img src="images/médico-veterinário-veterinária-atual.jpg" width="195em">
+          <h1>Dr Lucas</h1>
+          <h5>Lider da Equipe</h5>
+          <p>30 Anos</p>
+        </dir>
+        <dir class="person">
+          <img src="images/GettyImages-885571364-1.jpg" width="195em">
+          <h1>Dr Layla</h1>
+          <h5>Vice Lider da Equipe</h5>
+          <p>27 Anos</p>
+        </dir>
+        <dir class="person">
+          <img src="images/medico-veterinario-bem-sucedido-artigo.jpg" width="195em">
+          <h1>Dr Tony</h1>
+          <h5>Cirurgião</h5>
+          <p>26 Anos</p>
+        </dir>
+        <dir class="person">
+          <img src="images/matéria medicina veterinária.png" width="195em">
+          <h1>Dr Carol</h1>
+          <h5>Cirurgiã</h5>
+          <p>26 Anos</p>
+        </dir>
+        
+      
+      </div>
+  
+      </article>
+      
+      <article class="config">
+        <h1>Tema</h1>
+        <div class="tema">
+          <img src="images/sun.svg" class="dia">
+          <img src="images/moon.svg" class="noite">
+        </div>
+        <div>
+          <h1>Sobre</h1>
+          <p>Criado Por: Lucas Santos</p>
+          <p>Ultima Atualização: 05/08/2022</p>
+          <p>Desafio Sidbar da Rocketseat</p>
+          <p>Ferramentas: HTML 5 , CSS 3 e JavaScript</p>
+        </div>
+
+        
+      </article>
+
+
+    </section>
+     
+  </div>
+  <img src="images/animais_T1.png" class="animais1"> 
+    <footer>Cirado por: @Lucas Santos<br>
+      <a href="../00-inicial/index.html">Portifólio</a>
+      </footer>
+  </body>
+  
+</html>

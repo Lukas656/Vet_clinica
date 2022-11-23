@@ -1,0 +1,406 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+  background-color:#FFFFFF;
+  color: #05372d;
+  font-family: Amazon Ember,Amazon Ember Arabic,Arial,sans-serif;
+}
+.corpo{
+  display: flex;
+}
+
+/*    Construção do Menu Esquerdo */
+
+.conteiner{
+    width: 270px;
+    height: 100vh;
+    background-color:#18c29c;
+    transition: 0.5s;
+}
+#menu{
+  cursor:pointer;
+}
+.grad1{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 10%;
+    cursor:pointer;
+}
+
+.grad2{
+    display: flex;
+    padding: 10px;
+    margin-top: 5%;
+    cursor:pointer;
+}
+
+
+.txtNav{
+  margin-left:15%;
+  cursor:pointer;
+ 
+}
+
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:98%;
+    height:32px;
+
+  }
+  
+  .busca{
+    position: absolute;
+    cursor:pointer;
+    top: 14.2%;
+    left:1.1%;
+    background-color:#E0EEEE;
+    border-radius: 2px;
+  }
+
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    margin-left:45px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+    
+  }
+  
+  #divBusca img{
+    float:left;
+    
+  }
+.imgVet{
+  background-color: #E0EEEE;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 45%;
+}
+.txtVet{
+  margin-top: 7%;
+}
+#logout{
+  margin-top: 190%;
+  margin-left: 10%;
+  display: none;
+  cursor:pointer;
+}
+
+h2{
+  border-bottom: 0.1px solid;
+}
+h2:hover{
+  color: rgb(255, 251, 0);
+  cursor:pointer;
+}
+
+
+  /* funções De cada menu */
+ .conteiner2{
+  width: 100%;
+  height: 10vh;
+ }
+
+.cards{
+  width: 80vh;
+  margin-left: 25%;
+  display: none;
+  flex-wrap: wrap;
+  justify-items: center;
+}
+.card, .card2, .card3, .card4{
+  background-image:url('images/cats-paw-print-cat-or-dog-paws-footsteps-prints-pets-footprints-and-animal-printed-footstep-tracks-seamless-pattern-vector-background-2B11RHB.jpg') ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  color: black;
+  width: 35vh;
+  height: 25vh;
+  margin: 2%;
+  border: 2px solid black;
+  cursor:pointer;
+}
+.cards h1{
+  font-size: 20px;
+  margin-top: 55%;
+  color: black;
+  background-size: 100%;
+  background-color: #18c29c;
+}
+
+
+
+.card:hover{
+  width: 35vh;
+  background-image: url('images/imagem1.jfif');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.card2:hover{
+  width: 35vh;
+  background-color: white;
+  background-image: url('images/bela1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.card3:hover{
+  width: 35vh;
+  background-color: white;
+  background-image: url('images/imagem3.jfif');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.card4:hover{
+  width: 35vh;
+  background-color: white;
+  background-image: url('images/imagem2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.mapa{
+margin-left: 5%;
+display: none;
+}
+h3 a{
+  color: blue;
+}
+
+.modal{
+  background-color: #12fac8;
+  width: 785px;
+  height: auto;
+  position: absolute;
+  top: 30%;
+  left:15%;
+  text-align: center;
+  border: 3px solid #dd0000;
+  display: none;
+  flex-wrap: wrap;
+  gap: 2px;
+  justify-content: space-between;
+}
+.modal h3{
+  height: 30px;
+  width: 100%;
+  font-size: 35px;
+}
+.btn-modal{
+  width: 15%;
+  position: absolute;
+  top: 59%;
+}
+
+.text-modal{
+  padding: 5px;
+  margin-top: 15px;  
+  margin-bottom: 5px;  
+}
+.text-modal ul li{
+  list-style: none;
+  margin-top: 15px;
+}
+.text-modal p{
+  margin-top: 9px;
+}
+.modal img{
+  width: 150px;
+}
+.modal-img{
+  color: rgb(0, 0, 0);
+  padding: 5px;
+}
+
+.buttons{
+  display: none;
+  justify-content: space-between;
+  width: 85%;
+  margin-left: 80px;
+}
+button{
+  background-color: rebeccapurple;
+  color: white;
+  font-size: 25px;
+  border-radius: 1px;
+  margin-top: 10%;
+  width: 25rem;
+  height: 2rem;
+}
+button:hover{
+  background-color: #18c29c;
+}
+.btn1, .btn2{
+  display: none;
+}
+fieldset{
+  background-color: #18c29d6a;
+  text-align: center;
+  margin-top: 25px;
+  padding: 10px;
+}
+input{
+  margin-bottom: 15px;
+}
+
+
+.animais1{
+  display: none;
+  margin-left: 30%;
+  width: 100vh;
+}
+
+
+/* From uiverse.io by @alexruix */
+.usuario{
+  width: 99%;
+  height: 55%;
+  display: none;
+
+}
+.cardUser {
+ margin-top: 10%;
+ margin-left: 2%;
+  width: 90%;
+  padding: 2rem;
+  text-align: center;
+  background: #18c29c;
+ }
+ 
+ /*Inputs*/
+ .field {
+  margin-top: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5em;
+  background-color: #20233a;
+  border-radius: 4px;
+  padding: .5em 1em;
+ }
+ 
+ .input-icon {
+  height: 1em;
+  width: 1em;
+  fill: #ffeba7;
+ }
+ 
+ .input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-top: 10px;
+  color: #d3d3d3;
+ }
+ 
+ /*Text*/
+ .title {
+  margin-bottom: 1rem;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: black;
+ }
+ 
+ /*Buttons*/
+ .btn {
+  margin: 1rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: .8em;
+  text-transform: uppercase;
+  padding: 0.6em 1.2em;
+  background-color: #20233a;
+  color: #ffffff;
+  box-shadow: 0 8px 24px 0 rgb(255 235 167 / 20%);
+  transition: all .3s ease-in-out;
+ }
+ 
+ .btn-link {
+  color: #f5f5f5;
+  display: block;
+  font-size: .75em;
+  transition: color .3s ease-out;
+ }
+ 
+ /*Hover & focus*/
+ .field input:focus::placeholder {
+  opacity: 0;
+  transition: opacity .3s;
+ }
+ 
+ .btn:hover {
+  background-color: #12fac8;
+  color: black;
+  box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+ }
+ 
+ .btn-link:hover {
+  color: #18c29c;
+ }
+
+
+ .sectionVet{
+display: none;
+ }
+ .veterinarios{
+  width: 90vh;
+  margin-left: 255px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  text-align: center;
+ }
+
+ .person{
+  margin: 4%;
+  border: 2px solid ;
+ }
+
+.config{
+  display: none;
+  width: 55vh;
+  margin-top: 10%;
+  margin-left: 30%;
+  background-color: #12fac850;
+  text-align: center;
+}
+
+
+ .tema{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #084236;
+ }
+ .tema img{
+  width: 55px;
+  }
+ .config h1{
+  font-size: 2em;
+  margin-bottom: 2px;
+  }
+
+ .tema img:hover{
+  background-color: purple;
+
+ }
+
+ footer{
+  background-color: #18c29c;
+  color: black;
+  font-family:sans-serif;
+  text-align: center;
+  margin-top: 3%;
+  padding-top: 1%;
+  height: 35%;
+ }
